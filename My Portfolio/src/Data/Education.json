@@ -1,0 +1,36 @@
+[
+    {
+        "id":1,
+        "coursename":"Front End development",
+        "courseyear":"2022-23",
+        "institute":"Tops Technologies",
+        "grade":"A+ Grade"
+    },
+    {
+        "id":2,
+        "coursename":"B.Com",
+        "courseyear":"2021",
+        "institute":"H.A College of commerce ",
+        "grade":"71% Percentage"
+    },
+    {
+        "id":3,
+        "coursename":"M.Com",
+        "courseyear":"Running",
+        "institute":"Gujarat University",
+        "grade":"First class"
+    },
+    {
+        "id":4,
+        "coursename":"SSC",
+        "courseyear":"2016",
+        "institute":"S.V High School kadi",
+        "grade":"76.83% Percentage"
+    },{
+        "id":5,
+        "coursename":"HSC",
+        "courseyear":"2018",
+        "institute":"S.V High School kadi",
+        "grade":"84.83% Percentage"
+    }
+]
