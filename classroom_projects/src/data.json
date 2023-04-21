@@ -1,0 +1,70 @@
+
+{
+    "employees":[
+        {
+            "id" :1,
+            "name" : "vijay",
+            "employment" : "React developer"
+        },
+        {
+            "id" :2,
+            "name" : "Ajay",
+            "employment" : "php developer"
+        },
+        {
+            "id" :3,
+            "name" : "sanjay",
+            "employment" : "python developer"
+        },
+        {
+            "id" :4,
+            "name" : "ketan",
+            "employment" : "java developer"
+        },
+        {
+            "id" :5,
+            "name" : "viren",
+            "employment" : "backend developer"
+        },
+        {
+            "id" :6,
+            "name" : "Rahul",
+            "employment" : "React developer"
+        },
+        {
+            "id" :7,
+            "name" : "Rutvik",
+            "employment" : "php developer"
+        },
+        {
+            "id" :8,
+            "name" : "Renish",
+            "employment" : "Front end developer"
+        },
+        {
+            "id" :9,
+            "name" : "Keyur",
+            "employment" : "java developer"
+        },
+        {
+            "id" :10,
+            "name" : "Pooja",
+            "employment" : "React developer"
+        },
+        {
+            "id" :11,
+            "name" : "Ram",
+            "employment" : "Full stake developer"
+        },
+        {
+            "id" :12,
+            "name" : "Visva",
+            "employment" : "React developer"
+        },
+        {
+            "id" :13,
+            "name" : "Vraj",
+            "employment" : "React developer"
+        }
+    ]
+}
