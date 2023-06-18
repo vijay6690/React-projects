@@ -1,5 +1,6 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import { checkUser, createUser, loginUser, updateUser } from "./authAPI";
+import { checkUser, createUser, loginUser, signOut } from "./authAPI";
+import { updateUser } from "../user/userApi";
 
 const initialState = {
   loggedInUser: null,
@@ -41,6 +42,14 @@ export const loginUserAsync = createAsyncThunk(
       console.log(error);
       // return rejectWithValue(error);
     }
+  }
+);
+
+export const signOutAsynce = createAsyncThunk(
+  "user/signOut",
+  async (updateData) => {
+    const response = await signOut(updateData);
+    return response.data;
   }
 );
 
@@ -86,6 +95,13 @@ const authSlice = createSlice({
         state.status = "idle";
         state.loggedInUser = action.payload;
       })
+      .addCase(signOutAsynce.pending, (state) => {
+        state.status = "loading";
+      })
+      .addCase(signOutAsynce.fulfilled, (state, action) => {
+        state.status = "idle";
+        state.loggedInUser = null;
+      });
   },
 });
 
